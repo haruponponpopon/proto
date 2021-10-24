@@ -35,19 +35,6 @@ ul {
     margin-top:0px;
 }
 
-.container {
-    display: block;
-    position: relative;
-    padding-left: 180px;
-    margin-top:40px;
-    cursor: pointer;
-    font-size: 70px;
-    color:#327DC8;
-    /* -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none; */
-}
 /* 虹色の新規作成ボタン */
 .icon-plus-minus {
     position: relative;
@@ -57,15 +44,8 @@ ul {
     width: 100px;
     height: 100px;
     transform: rotate(0);
-    /* transition: transform 333ms ease; */
-    /* will-change: transform; */
 }
-  /* .icon-plus-minus:hover {
-    transform: rotate(180deg);
-  }  */
-  /* .icon-plus-minus:hover .icon-plus-minus__inner::before {
-    opacity: 0;
-  } */
+
   .icon-plus-minus__wrapper {
     display: flex;
     align-items: center;
@@ -119,56 +99,29 @@ ul {
 
 
 /* デフォルトのラジオボタンデザインを無効化 */
-.container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
+.task {
+    margin-top:20px;
+    margin-left:50px;
+    width: 700px;
+    height: 150px;
+    padding:0;
+    font-size:60px;
+    background-color: #000041;
+    color:#327DC8;
+    border-bottom: solid;
+    border-color: #327DC8;
+    color:#327DC8;
+    border-radius: 10px;
 }
 
-/* カスタムラジオボタンの作成 */
-.checkmark {
-    /* margin-top: 28px; */
-    margin-top: 45px;
-    margin-left: 60px;
-    position: absolute;
-    /* top: 0; */
-    left: 0;
-    height: 50px;
-    width: 50px;
-    background-color: #4169E1;
-    border-radius: 50%;
+.container1 input:hover{
+    background-color: #327DC8;
+    color:#000041;
+    border-color:#000041;
+}
+.container2 input:hover{
+    background-color: #327DC8;
+    color:#000041;
+    border-color:#000041;
 }
 
-
-/* #99CCFF */
-/* チェックした時のカラーリング */
-.container input:checked ~ .checkmark {
-    background-color: #99CCFF; 
-}
-.container input:checked ~ .task{
-    color:#4169E1;
-    background-color: #99CCFF;
-    border-radius: 20px;
-}
-
-
-/* .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-} */
-
-/* .container input:checked ~ .checkmark:after {
-    display: block;
-} */
-/* 
-.container .checkmark:after {
-    top: 9px;
-    left: 9px;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: white;
-} */
-
-  
