@@ -1,3 +1,6 @@
 # proto
-<img width="406" alt="スクリーンショット 2021-10-24 23 00 08" src="https://user-images.githubusercontent.com/72332745/138597552-28adb84a-f10a-422f-842b-b5699db6788f.png">
+
+<img width="420" alt="スクリーンショット 2021-10-24 23 07 46" src="https://user-images.githubusercontent.com/72332745/138597813-17eeeb95-5813-4897-a511-0b871e8b3994.png">
+
+
 
