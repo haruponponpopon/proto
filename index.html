@@ -6,20 +6,28 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div class="header">
-        <h1>今日のタスクを選んでください</h1>
-    </div>
+    <header>
+        <input class=complete type=submit value=決定>
+        <div>本日のタスク</div>
+    </header>
     <div class="main">
-        <input class=complete type=submit value=完了>
-        <ul>
-            <div>
-                <input class="create_new_task" type="radio" name="test1">新規タスク作成
-            </div>
-            <div>
-                <input class="task" type="radio" name="test1">タスク1
-            </div>
+        <ul class="area">
+            <li>
+                <i class="icon-plus-minus">
+                    <span class="icon-plus-minus__wrapper">
+                      <span class="icon-plus-minus__inner"></span>
+                    </i>
+                    <p class="task_create">タスク新規作成</p>
+                  <label class="container">
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                    <div class="task">タスク1</div>
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                    <div class="task">タスク2</div>
+                  </label>
+            </li>
         </ul>
     </div>
-    <!-- <div class="footer"></div> -->
   </body>
 </html>
