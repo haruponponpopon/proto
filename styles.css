@@ -39,8 +39,8 @@ ul {
 .icon-plus-minus {
     position: relative;
     display: inline-block;
-    margin-top:40px;
-    margin-left:40px;
+    margin-top:60px;
+    margin-left:60px;
     width: 100px;
     height: 100px;
     transform: rotate(0);
@@ -92,7 +92,7 @@ ul {
 /* タスク新規作成 */
 .task_create{
     float:right;
-    margin-top: 50px;
+    margin-top: 60px;
     margin-right:350px;
     color:#327DC8;
 }
